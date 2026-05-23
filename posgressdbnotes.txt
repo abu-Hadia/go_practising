@@ -1,0 +1,19 @@
+-----postgres credential
+UserName= postgres
+Password= Abc123@@ 
+
+"C:\Program Files\PostgreSQL\15\bin\psql.exe" -U postgres
+postgres=# CREATE DATABASE MYDB; ---TO CREATE DATABASE IN PostgreSQL15
+
+postgres=# \c mydb ----> to connect postgres db 
+You are now connected to database "mydb" as user "postgres".
+-----to create table in mydb postgres
+mydb=# CREATE TABLE users (
+mydb(#     id SERIAL PRIMARY KEY,
+mydb(#     firstname VARCHAR(50),
+mydb(#     middlename VARCHAR(50),
+mydb(#     lastname VARCHAR(50),
+mydb(#     registeredby VARCHAR(100),
+mydb(#     dateregistered TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+mydb(# );
+CREATE TABLE
