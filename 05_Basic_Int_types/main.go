@@ -11,5 +11,11 @@ func main() {
 	like++
 	avgviews := totalviews / 2
 	fmt.Println(totalviews, like, avgviews)
+	//floating
+
+	float1 := 45.1
+	float2 := 49.9
+	avgfloat := (float1 + float2) / 2
+	fmt.Println(avgfloat)
 
 }
