@@ -5,13 +5,13 @@ import "fmt"
 func main() {
 
 	//boolean
-	isLogin := true
-	isadmin := false
-	hassubscription := true
+	isLogging := true
+	hasSubscription := true
+	isAdmin := true
 
-	canDelete := isLogin && isadmin
-	canPost := isadmin || hassubscription
-
-	fmt.Println(canDelete, canPost)
+	cancancelpost := isAdmin && hasSubscription
+	canupdate := isLogging || isAdmin
+	fmt.Println("you can cancel:", cancancelpost)
+	fmt.Println("you can update it:", canupdate)
 
 }
