@@ -15,6 +15,14 @@ func main() {
 	fmt.Println(totalviews, like, avgviews)
 	//floating
 
+	//string with cocatination
+
+	var fistname, lastname, fullname string
+	fistname = "AHMED"
+	lastname = "ABDILAHI"
+	fullname = fistname + " " + lastname
+	fmt.Println(fullname)
+
 	float1 := 45.1
 	float2 := 49.9
 	avgfloat := (float1 + float2) / 2
