@@ -49,5 +49,18 @@ func main() {
 	} else {
 		fmt.Println("Total is less than 1000 so division Result is:", float64(num1)/float64(num2))
 	}
+	//zero value in string is "" empty string
+	var ahmed string
+	fmt.Println(ahmed)
+	jama := "string"
+	fmt.Println(jama)
 
+	//zero value integer is 0
+	var num int
+	fmt.Println(num)
+
+	// zero value in boolean is false
+
+	var numb bool
+	fmt.Println(numb)
 }
