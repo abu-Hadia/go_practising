@@ -20,6 +20,22 @@ func main() {
 	avgfloat := (float1 + float2) / 2
 	fmt.Println(avgfloat)
 
+	var smallFload float64
+	fmt.Println(smallFload)
+	smallFload = 55.333
+	fmt.Println(smallFload)
+
+	var largeFloat float64
+	fmt.Println(largeFloat)
+	largeFloat = 999999.1
+	fmt.Println(largeFloat)
+
+	//complex numbers
+
+	var mycomplex complex128
+	mycomplex = complex(smallFload, largeFloat)
+	fmt.Println(mycomplex)
+
 	/// other data types
 
 	var positivevalues uint8
@@ -65,5 +81,3 @@ func main() {
 	// Used to represent Unicode characters
 
 }
-
-// 65104109101100
